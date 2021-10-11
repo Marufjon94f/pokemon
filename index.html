@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="py-5">
+    <div class="container">
+      <h1 class="mb-4 h2 text-center">Pokemons</h1>
+      <ul class="pokemon-list row list-unstyled"></ul>
+    </div>
+  </main>
+  <template id="pokemon-card-template">
+    <li class="pokemon-item col-md-3 mb-3">
+      <div class="pokemon-card card border-0 shadow-sm">
+        <img class="pokemon-img card-img-top" alt="picture pokemons" width="300" height="200" />
+
+        <div class="pokemon-card-body card-body text-center">
+          <h2 class="pokemon-title h4 card-title">pokemon Name</h3>
+            <p class="pokemon-type">poison</p>
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <script src="./pokemons.js"></script>
+  <script src="./utils.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
